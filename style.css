@@ -1,0 +1,120 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.7;
+  background-color: #f5f7fa;
+  color: #2c3e50;
+  padding: 40px 20px;
+}
+
+/* Container central */
+body > * {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Título principal */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #dcdcdc;
+  padding-bottom: 10px;
+}
+
+/* Subtítulos */
+h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  border-left: 4px solid #3498db;
+  padding-left: 10px;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* Texto */
+p {
+  margin-bottom: 15px;
+}
+
+/* Listas */
+ul {
+  margin: 0 0 15px;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Tabela (cronograma) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #ecf0f1;
+  font-weight: 600;
+}
+
+/* Destaque forte */
+strong {
+  color: #000;
+}
+
+/* Código (se usar) */
+code {
+  background-color: #eef1f5;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+/* Links */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
