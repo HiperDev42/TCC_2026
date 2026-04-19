@@ -8,16 +8,6 @@
 
 ## 1. Introdução
 
-A fala humana carrega uma grande quantidade de informação além do conteúdo semântico, incluindo características sociais, geográficas e culturais do falante. No contexto do português brasileiro, a diversidade regional se manifesta em variações fonéticas, prosódicas e lexicais, frequentemente referidas como sotaques.
-
-A identificação automática de sotaques a partir de sinais de áudio é um problema relevante em áreas como processamento de fala, sistemas de reconhecimento automático (ASR) e personalização de interfaces baseadas em voz. Além disso, compreender como modelos de aprendizado de máquina capturam essas variações pode contribuir para uma melhor interpretação dos padrões acústicos associados às diferentes regiões.
-
-Com o avanço de técnicas de aprendizado profundo e o surgimento de representações robustas de áudio, tornou-se possível explorar esse problema de forma mais sistemática. No entanto, ainda há lacunas na compreensão de quais características do sinal de fala são efetivamente utilizadas por esses modelos para distinguir sotaques, especialmente no contexto do português brasileiro.
-
----
-
-## 1. Introdução e Motivação
-
 A fala humana carrega uma grande quantidade de informação além do conteúdo semântico, incluindo características sociais, geográficas e culturais do falante. No contexto do português brasileiro, essa diversidade se manifesta em variações fonéticas, prosódicas e, em menor grau, lexicais, frequentemente referidas como sotaques regionais.
 
 A identificação automática de sotaques a partir de sinais de áudio é um problema relevante em áreas como processamento de fala, sistemas de reconhecimento automático de fala (ASR) e personalização de interfaces baseadas em voz. Além disso, compreender como modelos de aprendizado de máquina capturam essas variações pode contribuir para uma melhor interpretação dos padrões acústicos associados às diferentes regiões.
