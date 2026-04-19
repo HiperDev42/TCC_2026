@@ -5,6 +5,7 @@ OUT=dist/index.html dist/style.css
 CSS=style.css
 META=metadata.yml
 TEMPLATE=template.html
+BEFORE=includes/before.html
 
 .PHONY: all build open clean rebuild watch
 
@@ -14,8 +15,8 @@ all: build
 # Gerar HTML a partir do Markdown
 build: $(OUT)
 
-dist/index.html: $(SRC) $(TEMPLATE) $(CSS) $(META) | dist
-	pandoc $(SRC) -o $@ --standalone --template=template.html --css=$(CSS) --metadata-file=$(META)
+dist/index.html: $(SRC) $(TEMPLATE) $(CSS) $(META) $(BEFORE) | dist
+	pandoc $(SRC) -o $@ --standalone --template=$(TEMPLATE) --css=$(CSS) --metadata-file=$(META) --include-before-body=$(BEFORE)
 
 dist/%.css: %.css | dist
 	cp $< $@

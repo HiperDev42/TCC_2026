@@ -1,7 +1,7 @@
 title: "TCC - Proposta"
 lang: pt-BR
 author:
-  - "Seu Nome"
+  - "Felipe Kelemen Bernardino"
 date: "2026-04-19"
 keywords:
   - sotaques regionais
@@ -12,14 +12,3 @@ toc: true
 header-includes:
   - |
     <meta name="description" content="Proposta de TCC sobre identificacao de sotaques regionais no portugues brasileiro." />
-include-before:
-  - |
-    <header class="document-header">
-      <p>Universidade de Sao Paulo</p>
-      <p>Trabalho de Conclusao de Curso</p>
-    </header>
-include-after:
-  - |
-    <footer class="document-footer">
-      <p>Documento gerado com Pandoc.</p>
-    </footer>
